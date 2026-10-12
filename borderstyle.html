@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Border Styles Example</title>
+    <style>
+        /* Base styling for the boxes */
+        .border-box {
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-width: 4px;       /* Sets border thickness */
+            border-color: lab(21.25% 0 0 / 0.948);   /* Sets border color */
+        }
+
+        /* Different border style classes */
+        .solid   { border-style: solid; }
+        .dashed  { border-style: dashed; }
+        .dotted  { border-style: dotted; }
+        .double  { border-style: double; border-width: 6px; } /* Looks best a bit thicker */
+        .groove  { border-style: groove; }
+        .ridge   { border-style: ridge; }
+        .inset   { border-style: inset; }
+        .outset  { border-style: outset; }
+        .none    { border-style: none; }
+
+        /* Shorthand example: width | style | color */
+        .shorthand-box {
+            margin: 15px 0;
+            padding: 10px;
+            border: 3px solid #ff5722; 
+            border-radius: 8px; /* Optional: rounds the corners */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>CSS Border Styles Demonstration</h2>
+
+    <div class="border-box solid"><strong>Solid:</strong> A flat, continuous line.</div>
+    <div class="border-box dashed"><strong>Dashed:</strong> A series of rectangular dashes.</div>
+    <div class="border-box dotted"><strong>Dotted:</strong> A series of round dots.</div>
+    <div class="border-box double"><strong>Double:</strong> Two parallel solid lines.</div>
+    <div class="border-box groove"><strong>Groove:</strong> A carved 3D effect.</div>
+    <div class="border-box ridge"><strong>Ridge:</strong> A raised 3D effect.</div>
+    <div class="border-box inset"><strong>Inset:</strong> Makes the box look embedded into the page.</div>
+    <div class="border-box outset"><strong>Outset:</strong> Makes the box look raised out of the page.</div>
+    <div class="border-box none"><strong>None:</strong> No border visible (default behavior).</div>
+
+    <h2>Shorthand Method</h2>
+    <div class="shorthand-box">
+        This box uses the single-line <code>border</code> shorthand and has rounded corners.
+    </div>
+
+</body>
+</html>

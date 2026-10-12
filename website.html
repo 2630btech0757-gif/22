@@ -1,0 +1,269 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIET - Krishna Institute of Engineering & Technology</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #0b2545;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 85%;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 400px;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        video {
+            width: 500px;
+            max-width: 100%;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #123c69;
+            color: white;
+        }
+
+        footer {
+            background-color: #123c69;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        button {
+            background-color: #123c69;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>KIET Group of Institutions</h1>
+        <h2>Krishna Institute of Engineering & Technology</h2>
+        <p>Welcome to our simple college website</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#media">Media</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About KIET</h2>
+
+        <p>
+            KIET is an educational institution offering various
+            engineering and technology programs.
+        </p>
+
+        <p>
+            The institution focuses on <b>education</b>,
+            <strong>innovation</strong>, and <i>skill development</i>.
+        </p>
+
+        <hr>
+
+        <h3>College Image</h3>
+
+        <!-- Image -->
+        <img src="kiet.jpg" alt="KIET College">
+
+        <p>
+            Visit the
+            <a href="https://www.kiet.edu/" target="_blank">
+                official KIET website
+            </a>
+            for more information.
+        </p>
+    </section>
+
+    <!-- Ordered List -->
+    <section>
+        <h2>Steps to Become a Student</h2>
+
+        <ol>
+            <li>Choose your course</li>
+            <li>Apply for admission</li>
+            <li>Complete the admission process</li>
+            <li>Attend classes</li>
+        </ol>
+    </section>
+
+    <!-- Unordered List -->
+    <section id="courses">
+        <h2>Popular Courses</h2>
+
+        <ul>
+            <li>Computer Science Engineering</li>
+            <li>Information Technology</li>
+            <li>Electronics Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Civil Engineering</li>
+        </ul>
+    </section>
+
+    <!-- Description List -->
+    <section>
+        <h2>Important Terms</h2>
+
+        <dl>
+            <dt><b>KIET</b></dt>
+            <dd>Krishna Institute of Engineering & Technology</dd>
+
+            <dt><b>B.Tech</b></dt>
+            <dd>Bachelor of Technology</dd>
+
+            <dt><b>HTML</b></dt>
+            <dd>HyperText Markup Language</dd>
+        </dl>
+    </section>
+
+    <!-- Video -->
+    <section id="media">
+        <h2>College Video</h2>
+
+        <video controls>
+            <source src="kiet-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <p>College introduction video.</p>
+    </section>
+
+    <!-- Table -->
+    <section>
+        <h2>Courses and Duration</h2>
+
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Duration</th>
+                <th>Degree</th>
+            </tr>
+
+            <tr>
+                <td>Computer Science</td>
+                <td>4 Years</td>
+                <td>B.Tech</td>
+            </tr>
+
+            <tr>
+                <td>Mechanical Engineering</td>
+                <td>4 Years</td>
+                <td>B.Tech</td>
+            </tr>
+
+            <tr>
+                <td>Electronics</td>
+                <td>4 Years</td>
+                <td>B.Tech</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Form -->
+    <section id="contact">
+        <h2>Student Registration Form</h2>
+
+        <form>
+
+            <label>Name:</label><br>
+            <input type="text" name="name">
+            <br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email">
+            <br><br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password">
+            <br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <br><br>
+
+            <label>Course:</label><br>
+            <select>
+                <option>Computer Science</option>
+                <option>Information Technology</option>
+                <option>Mechanical Engineering</option>
+                <option>Electronics Engineering</option>
+            </select>
+            <br><br>
+
+            <label>
+                <input type="checkbox">
+                I agree to the terms and conditions
+            </label>
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 KIET Group of Institutions</p>
+        <p>All Rights Reserved</p>
+    </footer>
+
+</body>

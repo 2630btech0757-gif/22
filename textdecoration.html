@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Text Decoration Gallery</title>
+    <style>
+        /* Modern page reset */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            padding: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        /* --- CSS Classes for Text Decoration --- */
+        
+        .no-underline {
+            text-decoration: none; /* Removes default link underline */
+            color: #007BFF;
+        }
+        .underline-simple {
+            text-decoration: underline;
+        }
+        .line-through-simple {
+            text-decoration: line-through;
+        }
+        .overline-simple {
+            text-decoration: overline;
+        }
+        .fancy-wavy {
+            /* Line type, pattern, color, and thickness in one line */
+            text-decoration: underline wavy #ff4757 3px;
+        }
+        .fancy-dashed {
+            text-decoration: overline dashed #2ed573 2px;
+        }
+        .fancy-double {
+            text-decoration: underline double #ffa502 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>HTML Text Decoration Examples</h2>
+        
+        <p><strong>Standard Link (Default):</strong> <a href="#">Click here</a></p>
+        <p><strong>Link with Decoration Removed:</strong> <a href="#" class="no-underline">Click here</a></p>
+        
+        <hr>
+
+        <p class="underline-simple">This text has a standard underline.</p>
+        <p class="line-through-simple">This text has a line-through (strikethrough).</p>
+        <p class="overline-simple">This text has an overline.</p>
+        
+        <hr>
+
+        <p class="fancy-wavy">This text has a fancy, thick, wavy red underline.</p>
+        <p class="fancy-dashed">This text has a green dashed overline.</p>
+        <p class="fancy-double">This text has a thick orange double underline.</p>
+    </div>
+
+</body>
+</html>
+

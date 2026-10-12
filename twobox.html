@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Box Model Demo</title>
+  <style>
+    body { background: #d3d9d4; font-family: sans-serif; display: grid; place-items: center; height: 100vh; margin: 0; }
+    .box-model-card {
+      width: 300px;         /* Content Width */
+      height: 120px;        /* Content Height */
+      padding: 24px;        /* Padding (Space inside the border) */
+      border: 8px solid #f63b6a; /* Border (The boundary) */
+      margin: 20px;         /* Margin (Space outside the border) */
+      background: rgb(25, 191, 147);    /* Content Background */
+      border-radius: 16px;  /* Rounded corners */
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="box-model-card">
+    <h2 style="margin: 0 0 8px 0; color: #1e293b;">The Box Model</h2>
+    <p style="margin: 0; color: #64748b; line-height: 1.5;">This card demonstrates content size, internal padding, a thick blue border, and external margin.</p>
+  </div>
+</body>
+</html>
+
+

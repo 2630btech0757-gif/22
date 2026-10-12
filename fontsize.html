@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Font Size Example</title>
+    <style>
+        html { font-size: 16px; } /* Defines the baseline 1rem unit */
+        .pixel-size { font-size: 24px; } /* Explicit pixel height */
+        .rem-size { font-size: 1.5rem; } /* Scaled to 1.5x the html root (24px) */
+        .em-size { font-size: 1.2em; } /* Scaled to 1.2x its parent element */
+    </style>
+</head>
+<body>
+    <h1>Standard Heading Size</h1>
+    <p class="pixel-size">This text size is explicitly set to 24 pixels.</p>
+    <p class="rem-size">This text uses rems, scaling off the root size.</p>
+    <p class="em-size">This text uses ems, scaling off its parent container.</p>
+    <p style="font-size: 14px;">This paragraph utilizes a quick inline style.</p>
+</body>
+</html>
